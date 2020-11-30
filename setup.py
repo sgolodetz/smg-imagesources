@@ -15,9 +15,7 @@ setup(
     packages=find_packages(include=["smg.imagesources", "smg.imagesources.*"]),
     include_package_data=True,
     install_requires=[
-        "numpy",
-        "smg-openni",
-        "smg-rotory"
+        "numpy"
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
