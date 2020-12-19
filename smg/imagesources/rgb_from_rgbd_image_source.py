@@ -2,7 +2,8 @@ import numpy as np
 
 from typing import Tuple
 
-from smg.imagesources import RGBImageSource, RGBDImageSource
+from .rgb_image_source import RGBImageSource
+from .rgbd_image_source import RGBDImageSource
 
 
 class RGBFromRGBDImageSource(RGBImageSource):
