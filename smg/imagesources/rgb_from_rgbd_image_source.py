@@ -17,7 +17,8 @@ class RGBFromRGBDImageSource(RGBImageSource):
 
         :param image_source:    The RGB-D image source.
         """
-        self.__image_source: RGBDImageSource = image_source
+        # : RGBDImageSource
+        self.__image_source = image_source
 
     # PUBLIC METHODS
 
