@@ -10,7 +10,15 @@ Note: Please read the [top-level README](https://github.com/sgolodetz/smglib/blo
 
 1. Change to the `<root>/smg-imagesources` directory.
 
-2. Run `pip install -e .` at the terminal.
+2. Check out the `master` branch.
+
+3. Activate the Conda environment, e.g.
+
+```
+conda activate smglib
+```
+
+4. Run `pip install -e .` at the terminal.
 
 ### Publications
 
